@@ -115,3 +115,107 @@ li:hover{
     color:rgba(117, 43, 117, 0.836);
     cursor:pointer; 
 }
+
+@media (max-width: 1400px){
+    img{
+        margin-right:200px ;
+        width:300px;
+    }
+
+    .Firstname{
+        font-size: 30px;
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+
+    .LastName{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .text-information{
+        margin-left: 100px;
+    }
+
+    table {
+        width:40%;
+        height:50%;
+    }
+
+    .skillbox{
+        margin-right: 100px;
+    }
+
+    .Educationbox{
+        font-size: 10px;
+        margin-left: 100px;
+    }
+    .Englishbox{
+        margin-right: 150px;
+    }
+}
+
+@media (max-width:1200px){
+    .flex-box{
+        width:1000px;
+        flex-direction: column;
+        padding-left: 80px;
+        height: 600px;
+    }
+
+    img{
+        margin-top: 120px;
+        width: 350px;
+        margin-left:250px;
+    }
+
+    .text-information{
+        font-size: 20px;
+    }
+
+    .Firstname{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .LastName{
+        font-size: 25px;
+    }
+
+    table{
+        margin-left:60px;
+    }
+
+    .skillbox{
+        margin-left: 250px;
+    }
+
+    .Experiencebox{
+        margin-left: 220px;
+    }
+
+    .Educationbox{
+        margin-left: 455px;
+    }
+    .Englishbox{
+        margin-left: 150px;
+    }
+
+    .skillbox{
+        margin-top:100px;
+    }
+}
+
+@media (max-width:1024px){
+    .flex-box{
+        width:800px;
+    }
+
+    .text-information{
+        margin-right:100px;
+    }
+
+    .Educationbox{
+        margin-left:355px;
+    }
+}
